@@ -1,4 +1,5 @@
 import { Injectable } from "@angular/core";
+import { Observable } from "rxjs";
 import { Course } from "./course";
 
 @Injectable({
@@ -9,7 +10,6 @@ export class CourseService{
     retrieveAll(): Course[] {
         return COURSES
     }
-    
 }
 
 
